@@ -2,6 +2,8 @@
 
 Inspired by Arc's `Cmd + Shift + C` shortcut, Safari Copy Shortlink brings the same quick copy-current-page workflow to Safari, but copies a cleaned URL instead of the raw one.
 
+![Safari Copy Shortlink toast](assets/toastimage.png)
+
 Built as a Raycast extension, it requires [Raycast](https://www.raycast.com/) to run.
 
 ## What it does
