@@ -1,0 +1,40 @@
+{
+  "name": "safari-copy-shortlink",
+  "title": "Safari Copy Shortlink",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Copy a cleaned URL from the frontmost Safari tab with an Arc-like shortcut flow.",
+  "icon": "icon.png",
+  "author": "j7s",
+  "license": "MIT",
+  "categories": [
+    "Productivity",
+    "Developer Tools"
+  ],
+  "commands": [
+    {
+      "name": "copy-clean-safari-url",
+      "title": "Copy Clean Safari URL",
+      "subtitle": "Safari Copy Shortlink",
+      "description": "Copy a cleaned URL from the frontmost Safari tab.",
+      "mode": "no-view",
+      "icon": "icon.png"
+    }
+  ],
+  "scripts": {
+    "dev": "ray develop",
+    "build": "ray build -o .raycast/build",
+    "lint": "ray lint"
+  },
+  "dependencies": {
+    "@raycast/api": "^1.80.0",
+    "@raycast/utils": "^1.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "@raycast/eslint-config": "^2.0.4",
+    "eslint": "^8.57.1",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2"
+  }
+}

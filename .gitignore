@@ -1,0 +1,6 @@
+node_modules/
+
+.raycast/build/
+
+.DS_Store
+**/.DS_Store
