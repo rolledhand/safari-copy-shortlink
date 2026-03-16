@@ -25,7 +25,8 @@ Built as a Raycast extension, it requires [Raycast](https://www.raycast.com/) to
 1. Import or open the extension in Raycast
 2. Install dependencies with `npm install`
 3. Start it with `npm run dev`
-4. Assign `Cmd + Shift + C` to `Copy Clean Safari URL` in Raycast
+4. Assign a shortcut of your choice to `Copy Clean Safari URL` in Raycast
+5. Pick a shortcut that does not conflict with your browser if you want a Safari-only setup
 
 ## Usage
 
@@ -33,6 +34,21 @@ Built as a Raycast extension, it requires [Raycast](https://www.raycast.com/) to
 2. Make sure Safari is the frontmost app
 3. Trigger `Copy Clean Safari URL`
 4. Paste the cleaned URL anywhere
+
+## Shortcut setup
+
+Raycast command hotkeys are global. If Raycast owns `Cmd + Shift + C`, Arc will not receive that shortcut.
+
+For a Safari-only setup:
+
+- Assign any shortcut you prefer in Raycast
+- Avoid using a shortcut that you also want Arc to keep handling
+
+For using the same shortcut in Safari and Arc:
+
+- Do not assign that shared shortcut directly in Raycast
+- Keep Arc's own shortcut in Arc
+- Use a different shortcut for this Copy Shortlink functionality
 
 ## Examples
 
@@ -59,6 +75,7 @@ https://www.amazon.com/Anything-Here/dp/B08N5WRWNW/ref=something
 - Safari has to be frontmost by design
 - Some redirect and short-link formats cannot be fully resolved
 - Raycast may need Automation permission for `System Events` and `Safari`
+- Raycast hotkeys are global, so sharing the same shortcut with Arc requires an app-aware external trigger
 
 ## Development
 
